@@ -18,6 +18,10 @@ autoload -Uz compinit
 compinit
 
 # Custom
+if [ -f ~/.oh-my-zsh-profile ]; then
+    source ~/.oh-my-zsh-profile
+fi
+
 source ~/.profile
 
 if [ -f ~/.secret/.profile ]; then

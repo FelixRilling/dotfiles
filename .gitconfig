@@ -1,0 +1,9 @@
+[user]
+	name = FelixRilling
+	email = contact@rilling.dev
+[core]
+    editor = vim
+[cola]
+	spellcheck = false
+	fontdiff = Hack,12,-1,5,50,0,0,0,0,0,Regular
+	icontheme = dark

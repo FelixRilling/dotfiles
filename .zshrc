@@ -3,7 +3,7 @@ autoload -Uz promptinit
 promptinit
 prompt adam1
 
-HISTFILE=~/.histfile
+HISTFILE=~/.zsh_history
 HISTSIZE=1000
 SAVEHIST=1000
 

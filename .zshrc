@@ -7,8 +7,8 @@ HISTFILE=~/.zsh_history
 HISTSIZE=1000
 SAVEHIST=1000
 
-setopt autocd sharehistory histignorealldups
-bindkey -e
+setopt zle autocd sharehistory histignorealldups
+bindkey -v
 
 # Completion
 zstyle ':completion:*' completer _complete _ignored
@@ -18,6 +18,10 @@ autoload -Uz compinit
 compinit
 
 # Custom
+if [ -f ~/.zsh_plugins ]; then
+    source ~/.zsh_plugins
+fi
+
 source ~/.profile
 
 if [ -f ~/.secret/.profile ]; then

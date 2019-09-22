@@ -1,8 +1,8 @@
 [Added Associations]
-inode/directory=code-oss.desktop;org.kde.dolphin.desktop;jetbrains-idea.desktop;
+inode/directory=org.kde.dolphin.desktop;code-oss.desktop;jetbrains-idea.desktop;
 
 [Default Applications]
-inode/directory=code-oss.desktop;
+inode/directory=org.kde.dolphin.desktop;
 x-scheme-handler/http=firefox-developer-edition.desktop;
 x-scheme-handler/https=firefox-developer-edition.desktop;
 x-scheme-handler/mailto=thunderbird.desktop;

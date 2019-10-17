@@ -1,7 +1,13 @@
 [Added Associations]
+application/vnd.ms-publisher=code-oss.desktop;
+application/x-trash=org.kde.kwrite.desktop;code-oss.desktop;
+image/png=imv.desktop;wine-extension-png.desktop;gimp.desktop;
 inode/directory=org.kde.dolphin.desktop;code-oss.desktop;jetbrains-idea.desktop;
 
 [Default Applications]
+application/vnd.ms-publisher=code-oss.desktop;
+application/x-trash=org.kde.kwrite.desktop;
+image/png=imv.desktop;
 inode/directory=org.kde.dolphin.desktop;
 x-scheme-handler/http=firefox-developer-edition.desktop;
 x-scheme-handler/https=firefox-developer-edition.desktop;

@@ -1,29 +1,26 @@
 # Core
-autoload -Uz promptinit
+autoload -Uz promptinit compinit
+compinit
 promptinit
-prompt adam1
 
 HISTFILE=~/.zsh_history
 HISTSIZE=1000
 SAVEHIST=1000
 
-setopt zle autocd sharehistory histignorealldups
+# Main options
+setopt autocd sharehistory histignorealldups
+# Use vi keybinds
 bindkey -v
+# Rebind rev search as it is unbound in vi mode
+bindkey "^R" history-incremental-search-backward
 
-# Menu completion view
+# Completion menu
 zstyle ':completion:*' menu select 
 
-# Current-line-match history
-autoload -Uz up-line-or-beginning-search down-line-or-beginning-search
-zle -N up-line-or-beginning-search
-zle -N down-line-or-beginning-search
-[[ -n "${key[Up]}"   ]] && bindkey -- "${key[Up]}"   up-line-or-beginning-search
-[[ -n "${key[Down]}" ]] && bindkey -- "${key[Down]}" down-line-or-beginning-search
+# Use adam1 prompt theme
+prompt adam1
 
-zstyle :compinstall filename '~/.zshrc'
 
-autoload -Uz compinit
-compinit
 
 # Custom
 if [ -f ~/.zsh_plugins ]; then

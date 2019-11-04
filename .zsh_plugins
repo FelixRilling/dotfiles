@@ -1,5 +1,10 @@
-# Plugins
-## Oh-My-Zsh
-source ~/.local/share/oh-my-zsh/plugins/archlinux/archlinux.plugin.zsh
-source ~/.local/share/oh-my-zsh/plugins/git/git.plugin.zsh
-source ~/.local/share/oh-my-zsh/plugins/colored-man-pages/colored-man-pages.plugin.zsh
+# zsh-syntax-highlighting
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# zsh-autosuggestions
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 
+
+# oh-my-zsh
+source /usr/share/oh-my-zsh/plugins/archlinux/archlinux.plugin.zsh
+source /usr/share/oh-my-zsh/plugins/git/git.plugin.zsh
+source /usr/share/oh-my-zsh/plugins/colored-man-pages/colored-man-pages.plugin.zsh

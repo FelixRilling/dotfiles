@@ -1,6 +1,5 @@
 # Variables
 # Core variables
-export LANG="en_US.UTF-8"
 export EDITOR="vim"
 
 # Host specific variables
@@ -18,6 +17,8 @@ alias ll="ls -la --color"
 ## Host specific variables
 alias upd="yay -Syu && npm upgrade -g"
 alias todo="vim ~/personal/sync/docs/todo/todo.txt"
+alias nordvpn="sudo openvpn /etc/openvpn/client/nordvpn.conf"
+alias syncthing-tunnel="ssh -N -L 9090:127.0.0.1:8384 felix@rilling.dev"
 
 ## Development Utils
 alias nprm="rm -rf node_modules package-lock.json"

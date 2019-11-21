@@ -1,5 +1,5 @@
 # Core
-export HISTFILE=/home/$USER/.bash_history
+export HISTFILE=$HOME/.bash_history
 
 # Completion
 if [ -f /usr/share/bash-completion/bash_completion ]; then

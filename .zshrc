@@ -14,9 +14,6 @@ bindkey -v
 # Rebind rev search as it is unbound in vi mode
 bindkey "^R" history-incremental-search-backward
 
-# Completion menu
-zstyle ':completion:*' menu select 
-
 # Use adam1 prompt theme
 prompt adam1
 

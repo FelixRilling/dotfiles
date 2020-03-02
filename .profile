@@ -1,6 +1,6 @@
 # Variables
 # Core variables
-export EDITOR="nvim"
+export EDITOR="vim"
 export LANG="en_US.UTF-8"
 
 # Host specific variables
@@ -14,9 +14,6 @@ export JDK_HOME=/usr/lib/jvm/java-11-openjdk/
 ## System Utils
 alias zshy="source ~/.zshrc"
 alias ll="ls -la --color"
-
-## Host specific variables
-alias upd="yay -Syu && npm upgrade -g"
 
 ## Development Utils
 alias nprm="rm -rf node_modules package-lock.json"

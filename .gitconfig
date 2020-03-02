@@ -2,4 +2,4 @@
 	name = FelixRilling
 	email = contact@rilling.dev
 [core]
-    editor = nvim
+    editor = vim

@@ -3,3 +3,4 @@
 	email = contact@rilling.dev
 [core]
     editor = vim
+	excludesfile = '~/.gitignore'

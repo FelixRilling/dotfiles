@@ -8,12 +8,15 @@ export PATH=~/.npm-global/bin:$PATH
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk/
 export JDK_HOME=/usr/lib/jvm/java-11-openjdk/
 
-
-
 # Alias
 ## System Utils
 alias zshy="source ~/.zshrc"
 alias ll="ls -la --color"
+
+## Host specific variables
+alias upd="yay -Syu && npm upgrade -g"
+alias yayrmorphans='yay -Rns $(yay -Qtdq)'
+alias todo="vim ~/personal/sync/docs/todo/todo.txt"
 
 ## Development Utils
 alias nprm="rm -rf node_modules package-lock.json"

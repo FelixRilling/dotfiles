@@ -1,10 +1,11 @@
 # Variables
 # Core variables
 export EDITOR="vim"
-export LANG="en_US.UTF-8"
 
 # Host specific variables
+export PATH=~/.local/bin:$PATH
 export PATH=~/.npm-global/bin:$PATH
+
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk/
 export JDK_HOME=/usr/lib/jvm/java-11-openjdk/
 

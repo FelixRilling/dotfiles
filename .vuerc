@@ -1,3 +1,4 @@
 {
-  "useTaobaoRegistry": false
+  "useTaobaoRegistry": false,
+  "packageManager": "npm"
 }

@@ -6,8 +6,8 @@ SAVEHIST=1000
 setopt autocd
 # No globberin' time.
 unsetopt extendedglob
-# we dont want duplicate entries.
-setopt hist_ignore_all_dups 
+# we dont want duplicate entries, but we want to share history accross terminals.
+setopt hist_ignore_all_dups share_history
 # Use vi keybinds.
 bindkey -v
 # Rebind reverse search as it is unbound in vi mode.
